@@ -1,5 +1,5 @@
 {
-  "homepage": "https://nurM7md.github.io",
+  "homepage": "https://nurM7md.github.io/Movies",
   "name": "movies",
   "version": "0.1.0",
   "private": true,
@@ -13,11 +13,15 @@
     "react-bootstrap": "^2.10.7",
     "react-dom": "^18.3.1",
     "react-paginate": "^8.2.0",
+    "react-redux": "^9.2.0",
     "react-router-dom": "^7.1.1",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "redux": "^5.0.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^3.1.0"
   },
   "scripts": {
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
